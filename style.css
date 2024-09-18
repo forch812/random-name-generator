@@ -1,0 +1,27 @@
+body, html {
+    height: 100%; /* التأكد من أن عنصر HTML و body يملآن الشاشة */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    display: flex; /* تفعيل flexbox على مستوى الجسم */
+    justify-content: center; /* توسيط العناصر أفقياً */
+    align-items: center; /* توسيط العناصر عمودياً */
+    background-color: white; /* لون الخلفية لتمييز العنصر */
+    font-family: Arial, Helvetica, sans-serif;
+}
+#center-div {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db; /* لون الخلفية للـ div */
+    color: white;
+    text-align: center;
+    line-height: 100px; /* محاذاة النص عمودياً */
+}
+#random-name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#generate-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
